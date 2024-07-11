@@ -11,6 +11,11 @@ from tqdm import tqdm
 from collections import deque
 from typing import Tuple, Deque
 
+#Vizualized package
+import matplotlib
+import matplotlib.pyplot as plt
+from tensorflow.keras.utils import plot_model
+
 
 # Define the LSTM-based RL model
 class TetrisLSTMAgent():
